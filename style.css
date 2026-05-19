@@ -48,3 +48,29 @@ p {
     border-color: #007bff;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
+
+.audio-player {
+    margin-top: 24px;
+    text-align: left;
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 18px;
+    border-radius: 8px;
+}
+
+.audio-player h2 {
+    margin-top: 0;
+    color: #007bff;
+    font-size: 1.1rem;
+}
+
+.audio-player p {
+    margin: 12px 0 0;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+audio {
+    width: 100%;
+    max-width: 100%;
+}

@@ -9,10 +9,19 @@
 <body>
 
     <div class="container">
-        <h1>Bloco de Notas do Joédio</h1>
+        <h1>Bloco de Notas do Joédito</h1>
         <p>Suas anotações são salvas automaticamente no seu navegador.</p>
         
         <textarea id="blocoDeNotas" placeholder="Comece a digitar aqui..."></textarea>
+
+        <div class="audio-player">
+            <h2>Música</h2>
+            <audio id="musica" controls>
+                <source src="Chaves - (Se Você É) Jovem Ainda Música Oficial - Prime Video Brasil (youtube).mp3" type="audio/mpeg">
+                Seu navegador não suporta áudio.
+            </audio>
+            <p>Coloque um arquivo <strong>musica.mp3</strong> na mesma pasta do projeto ou altere o atributo <code>src</code>.</p>
+        </div>
     </div>
 
     <script src="script.js"></script>
